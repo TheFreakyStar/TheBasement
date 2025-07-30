@@ -14,6 +14,9 @@ body {
 
 .edvin {
     width: 3%;
+    position: absolute;
+    left: 85%;
+    top: 69%;
 }
 
 .backroundE{
