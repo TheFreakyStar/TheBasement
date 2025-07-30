@@ -1,3 +1,60 @@
 body {
-    background-color: green;
+    background-color: rgb(83, 57, 0);
+    color: white;
+    overflow: hidden;
+}
+
+.backround{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+.edvin {
+    width: 3%;
+}
+
+.backroundE{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 66%;
+}
+
+.EText{
+    color: black;
+    position: relative;
+    left: 3%;
+    font-size: 32px;
+}
+
+#E1{
+    position: absolute;
+    top: 10%;
+}
+
+#E2{
+    position: absolute;
+    top: 25%;
+}
+
+#E3{
+    position: absolute;
+    top: 40%;
+}
+
+#E4{
+    position: absolute;
+    top: 65%;
+}
+
+#E5{
+    position: absolute;
+    top: 85%;
+    transform: rotate(180deg);
+    font-size: 25px;
+    left: 35%;
 }
